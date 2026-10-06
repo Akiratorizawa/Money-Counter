@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.dominic.HelpersTest" time="1.731" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="c:\Users\Dominic\Desktop\Java\moneycounter\target\test-classes;c:\Users\Dominic\Desktop\Java\moneycounter\target\classes;C:\Users\Dominic\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Dominic\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dominic\.m2\repository\org\xerial\sqlite-jdbc\3.46.0.0\sqlite-jdbc-3.46.0.0.jar;C:\Users\Dominic\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Dominic\.m2\repository\org\mindrot\jbcrypt\0.4\jbcrypt-0.4.jar;C:\Users\Dominic\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\Dominic\.m2\repository\org\apache\commons\commons-lang3\3.21.0\commons-lang3-3.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Manila"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PH"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dominic\AppData\Local\Temp\surefire9715903684304619308\surefirebooter17612997626171366046.jar C:\Users\Dominic\AppData\Local\Temp\surefire9715903684304619308 2026-10-06T21-52-44_850-jvmRun1 surefire12671993263083721337tmp surefire_04137648842763408540tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="c:\Users\Dominic\Desktop\Java\moneycounter\target\test-classes;c:\Users\Dominic\Desktop\Java\moneycounter\target\classes;C:\Users\Dominic\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Dominic\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dominic\.m2\repository\org\xerial\sqlite-jdbc\3.46.0.0\sqlite-jdbc-3.46.0.0.jar;C:\Users\Dominic\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Dominic\.m2\repository\org\mindrot\jbcrypt\0.4\jbcrypt-0.4.jar;C:\Users\Dominic\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\Dominic\.m2\repository\org\apache\commons\commons-lang3\3.21.0\commons-lang3-3.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Dominic"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-26.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="c:\Users\Dominic\Desktop\Java\moneycounter"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dominic\AppData\Local\Temp\surefire9715903684304619308\surefirebooter17612997626171366046.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.2.1+1-7"/>
+    <property name="user.name" value="Dominic"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Dominic\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dominic\AppData\Local\Temp\"/>
+    <property name="java.version" value="26.0.2.1"/>
+    <property name="user.dir" value="c:\Users\Dominic\Desktop\Java\moneycounter"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\Dominic\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Dominic\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Java\jdk-26.0.2.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Dominic\AppData\Local\Muse Hub\lib;C:\sqlite;C:\SQLite3;C:\Users\Dominic\AppData\Local\Microsoft\WindowsApps;C:\Users\Dominic\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dominic\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\Dominic\AppData\Local\Programs\Ollama;C:\Users\Dominic\AppData\Local\Muse Hub\lib;C:\msys64\ucrt64\bin;C:\Users\Dominic\Documents\apache-maven-3.10.0-bin\apache-maven-3.10.0\bin;C:\Users\Dominic\AppData\Local\Microsoft\WindowsApps;C:\Users\Dominic\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dominic\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\Dominic\AppData\Local\Programs\Ollama;C:\Users\Dominic\AppData\Local\Muse Hub\lib;C:\Users\Dominic\AppData\Local\JetBrains\Toolbox\scripts;c:\Users\Dominic\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26.0.2.1+1-7"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="hashPassword_Success" classname="com.dominic.HelpersTest" time="0.378"/>
+  <testcase name="hashPassword_emptyPassword" classname="com.dominic.HelpersTest" time="0.347"/>
+  <testcase name="verifyPassword_IncorrectPassword" classname="com.dominic.HelpersTest" time="0.334"/>
+  <testcase name="verifyPassword_CorrectPassword" classname="com.dominic.HelpersTest" time="0.333"/>
+  <testcase name="hashPassword_SamePasswordDifferentHashes" classname="com.dominic.HelpersTest" time="0.326"/>
+  <testcase name="verifyPassword_IllegalHash" classname="com.dominic.HelpersTest" time="0"/>
+</testsuite>
