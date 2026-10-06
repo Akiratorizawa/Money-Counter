@@ -66,6 +66,7 @@ public class SignUp {
             }
         }
 
+        scanner.close();
         AuthenticationPortal.authenticationPortal();
     }
 

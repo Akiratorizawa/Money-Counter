@@ -58,6 +58,9 @@ public class Login {
                 System.out.println("Incorrect username or password.\n");
             }
         }
+
+        scanner.close();
+
     }
     
     /**
@@ -68,8 +71,7 @@ public class Login {
      */
     private static int checkLoginDetails(String username, String password) {
         String sql = "SELECT * FROM users WHERE username = ?";
-        
-        String databaseUsername = null;
+    
         String hashedPassword = null;
 
         int user_id = 0;
@@ -79,7 +81,6 @@ public class Login {
                 pStatement.setString(1, username);
 
                 ResultSet rs = pStatement.executeQuery();
-                databaseUsername = rs.getString("username");
                 hashedPassword = rs.getString("password");
 
                 if (Helpers.verifyPassword(password, hashedPassword)) {
